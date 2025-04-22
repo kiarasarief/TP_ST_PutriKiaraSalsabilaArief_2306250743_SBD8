@@ -27,8 +27,9 @@ export default function Os({ darkMode }) {
               manajemen proses, memori, dan file system.
             </p>
             <p className={darkMode ? "text-gray-300" : "text-gray-700"}>
-              Fokus praktikum meliputi sistem operasi berbasis Unix/Linux dengan hands-on experience menggunakan command line
-              interface dan shell scripting.
+              Fokus praktikum meliputi sistem operasi berbasis Unix/Linux dengan
+              hands-on experience menggunakan command line interface dan shell
+              scripting.
             </p>
 
             <div
@@ -40,8 +41,7 @@ export default function Os({ darkMode }) {
                 className={`font-semibold ${
                   darkMode ? "text-sky-400" : "text-sky-700"
                 } mb-2`}
-              >
-              </h3>
+              ></h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <h4
@@ -82,11 +82,7 @@ export default function Os({ darkMode }) {
                 Tools yang Digunakan:
               </h3>
               <div className="flex flex-wrap gap-2">
-                {[
-                  "VirtualBox",
-                  "Ubuntu Server",
-                  "Docker",
-                ].map((tool) => (
+                {["VirtualBox", "Ubuntu Server", "Docker"].map((tool) => (
                   <span
                     key={tool}
                     className={`px-3 py-1 rounded-full text-sm ${
