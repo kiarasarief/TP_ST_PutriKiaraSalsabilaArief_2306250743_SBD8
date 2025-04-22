@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import SBDLogo from '../assets/SBDLogo.svg'
-import DMLogo from '../assets/DMJLogo.svg'
+import DMJLogo from '../assets/DMJLogo.svg'
 import OSLogo from '../assets/OSLogo.svg'
 
 export default function Navbar({ scrollTo, darkMode, setDarkMode }) {
